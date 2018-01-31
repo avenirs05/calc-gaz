@@ -2,7 +2,9 @@ $(function () {
 
 		var enteredAmount = $('#entered-amount');  
 
-		$('#calc-btn-convert').click(function() {
+		$('#calc-btn-convert').click(function(e) {
+				e.preventDefault();
+
 				calcFinalAmounts(chemEl, 'azot', false);
 				calcFinalAmounts(chemEl, 'ammiak', true);
 				calcFinalAmounts(chemEl, 'acetilen', true);
