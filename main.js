@@ -107,6 +107,8 @@ $(function () {
 																$('#mg-m3-amount').text( Math.round( $('#mg-m3-amount').text() * 100000) / 100000 );
 												}									
 									}
+
+									$('#meaning-in-table').text( $('#' + chemElName).text() );
 						}
 				}
 
