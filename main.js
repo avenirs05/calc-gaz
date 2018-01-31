@@ -10,26 +10,33 @@ $(function () {
 
 			if ( $('#azot').prop('selected') ) {			
 						
-						if ( $('#ppm-radio').prop('checked') ) {
-									 $('#ppm-amount').text( enteredAmount.val() );
-									 $('#mg-m3-amount').text( enteredAmount.val() * chemEl.azot.ppm );	
-									 $('#percent-vol-amount').text( enteredAmount.val() / 10000 );	
-									 $('#nkpr-amount').text( $('#percent-vol-amount').text() * chemEl.azot.pv );					 
-						}
-						
-						if ( $('#mg-m3-radio').prop('checked') ) {
-									 $('#ppm-amount').text( enteredAmount.val() * chemEl.azot.mg );
-									 $('#mg-m3-amount').text( enteredAmount.val() );									 
-									 $('#percent-vol-amount').text( $('#ppm-amount').text() / 10000 );
-									 $('#nkpr-amount').text( $('#percent-vol-amount').text() * chemEl.azot.pv );	
-						}
-						
-						if ( $('#percent-vol-radio').prop('checked') ) {
-										$('#ppm-amount').text( enteredAmount.val() * 10000 );
-										$('#mg-m3-amount').text( enteredAmount.val() );									 
-										$('#percent-vol-amount').text( enteredAmount.val() );
-										$('#nkpr-amount').text( $('#percent-vol-amount').text() * chemEl.azot.pv );	
-						}
+					if ( $('#ppm-radio').prop('checked') ) {
+								 $('#ppm-amount').text( enteredAmount.val() );
+								 $('#mg-m3-amount').text( enteredAmount.val() * chemEl.azot.ppm );	
+								 $('#percent-vol-amount').text( enteredAmount.val() / 10000 );	
+								 $('#nkpr-amount').text( $('#percent-vol-amount').text() * chemEl.azot.pv );					 
+					}
+					
+					if ( $('#mg-m3-radio').prop('checked') ) {
+								 $('#ppm-amount').text( enteredAmount.val() * chemEl.azot.mg );
+								 $('#mg-m3-amount').text( enteredAmount.val() );									 
+								 $('#percent-vol-amount').text( $('#ppm-amount').text() / 10000 );
+								 $('#nkpr-amount').text( $('#percent-vol-amount').text() * chemEl.azot.pv );	
+					}
+					
+					if ( $('#percent-vol-radio').prop('checked') ) {
+									$('#ppm-amount').text( enteredAmount.val() * 10000 );
+									$('#mg-m3-amount').text( $('#ppm-amount').text() * chemEl.azot.ppm );									 
+									$('#percent-vol-amount').text( enteredAmount.val() );
+									$('#nkpr-amount').text( $('#percent-vol-amount').text() * chemEl.azot.pv );	
+					}
+
+					if ( $('#nkpr-radio').prop('checked') ) {
+								$('#nkpr-amount').text( '-' );
+								$('#percent-vol-amount').text( '-' );
+								$('#ppm-amount').text( '-' );
+								$('#mg-m3-amount').text( '-' );										
+					}
 			}
 
 			if ( $('#ammiak').prop('selected') ) {			
