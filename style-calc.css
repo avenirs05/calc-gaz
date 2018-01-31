@@ -9,7 +9,7 @@
 
 #converter-wrapper h2 {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	font-family: 'Roboto',sans-serif;
 	font-weight: 600;
 	color: #000;
@@ -24,7 +24,7 @@
 #calc-substance-section,
 #calc-measuring-section,
 #calc-btns-section {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 #calc-meaning-section {
@@ -53,6 +53,7 @@
 	min-height: 22px;
 	padding-left: 5px;
 	font-size: 16px;
+	width: 48.5%;
 }
 
 #calc-btn-convert {
@@ -67,6 +68,7 @@
 	cursor: pointer;
 	padding: 10px 20px;
 	outline: none;
+	min-width: 170px;
 }
 
 #calc-btn-convert:hover {
@@ -74,7 +76,7 @@
 }
 
 #calc-btn-convert:active {
-	background-color: #FF0000;
+	background-color: #199C68;
 	color: #fff;
 }
 
@@ -97,7 +99,7 @@
 }
 
 #calc-btn-reset:active {
-	background-color: #FF0000;
+	background-color: #000;
 	color: #fff;
 }
 
@@ -110,7 +112,40 @@
 	border-radius: 5px;
 } 
 
-@media screen and (max-device-width: 991px) { }
+#converter-wrapper form table td {
+	border: 1px dotted #000;
+	padding: 5px;
+	width: 50%;
+}
+
+#converter-wrapper form table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#header-tr td {
+	font-weight: bold;
+}
+
+@media screen and (max-device-width: 351px) { 
+	#calc-btn-convert {
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-device-width: 991px) { 
+		#converter-wrapper form {
+			width: auto;
+		}
+		#converter-wrapper h2 {
+			font-size: 28px;
+		} 
+		#converter-wrapper input[type=text],
+		#converter-wrapper select {
+			width: 98%;
+		}
+}
+
 
 @media screen and (min-device-width: 320px) {  }
 
