@@ -3,6 +3,7 @@ $(function () {
 		var enteredAmount = $('#entered-amount');  
 
 		$('#calc-btn-reset').click(function() {
+				$('#meaning-in-table').text( 'Значение' );
 			  $('#nkpr-amount').text( '—' );
 			  $('#percent-vol-amount').text( '—' );
 			  $('#ppm-amount').text( '—' );
