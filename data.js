@@ -1,36 +1,69 @@
 var chemEl = {
-	azot: { ppm: 1.16211498915, mg: 0.85835912049, pv: 0} 
-	ammiak { ppm: 0.6222602661, mg: 1.60304, pv: 43.47826}
-	// acetilen { ppm: , mg: , pv: },
-	// aceton { ppm: , mg: , pv: }, 
-	// benzol { ppm: , mg: , pv: },
-	// butan { ppm: , mg: , pv: },
-	// vodorod { ppm: , mg: , pv: }, 
-	// geksan { ppm: , mg: , pv: },
-	// dioksidAzota { ppm: , mg: , pv: },
-	// dioksidUgleroda { ppm: , mg: , pv: },
-	// izobutan { ppm: , mg: , pv: },
-	// kislorod { ppm: , mg: , pv: }, 
-	// ksilol { ppm: , mg: , pv: },			        
-	// metan { ppm: , mg: , pv: },
-	// metanol { ppm: , mg: , pv: },
-	// ozon { ppm: , mg: , pv: }, 
-	// oksidSery { ppm: , mg: , pv: },
-	// oksidUgleroda { ppm: , mg: , pv: }, 
-	// oktan { ppm: , mg: , pv: },
-	// pentan { ppm: , mg: , pv: },
-	// propan { ppm: , mg: , pv: },
-	// serovodorod { ppm: , mg: , pv: },
-	// sinKislota { ppm: , mg: , pv: },
-	// stirol { ppm: , mg: , pv: },
-	// toluol { ppm: , mg: , pv: },
-	// fenol { ppm: , mg: , pv: },
-	// formaldegid { ppm: , mg: , pv: },
-	// ftor { ppm: , mg: , pv: },
-	// ftorovodorod { ppm: , mg: , pv: },
-	// hlor { ppm: , mg: , pv: },
-	// hlorovodorod { ppm: , mg: , pv: },
-	// etan { ppm: , mg: , pv: },
-	// etanol { ppm: , mg: , pv: },
-	// etilen  { ppm: , mg: , pv: }
+	azot: { ppm: 1.16211498915, mg: 0.85835912049, pv: 0 }, 
+	
+	ammiak: { ppm: 0.62226202661, mg: 1.60304173698, pv: 6.66666666667 },
+	
+	acetilen: { ppm: 1.08016390993, mg: 0.92348206678, pv: 43.47826086957 },
+	
+	aceton: { ppm: 2.40939856704, mg: 0.41400871306, pv: 40 }, 
+	
+	benzol: { ppm: 3.24032579324, mg: 0.30784311938, pv: 83.33333333333 },
+	
+	butan: { ppm: 2.41105793245, mg: 0.41372377933, pv: 71.42857142857 },
+	
+	vodorod: { ppm: 0.04180937073, mg: 23.85857482812, pv: 25 }, 
+	
+	geksan: { ppm: 3.57510276356, mg: 0.27901631533, pv: 100 },
+	
+	dioksidAzota: { ppm: 1.90849837769, mg: 0.52266850822, pv: 0 },
+	
+	dioksidUgleroda: { ppm: 1.82571678608, mg: 0.54636732685, pv: 0 },
+	
+	izobutan: { ppm: 2.41105793245, mg: 0.41372377933, pv: 76.92307692308 },
+	
+	kislorod: { ppm: 0.66370592211, mg: 1.50294274433, pv: 0 }, 
+	
+	ksilol: { ppm: 4.40437062436, mg: 0.22648230248, pv: 100 },			        
+	
+	metan: { ppm: 0.66540552712, mg: 1.49910386875, pv: 22.72727272727 },
+	
+	metanol: { ppm: 1.32915168884, mg: 0.75048770458, pv: 18.18181818182 },
+	
+	ozon: { ppm: 1.99115551689, mg: 0.50097141662, pv: 0 }, 
+	
+	oksidSery: { ppm: 2.65722479017, mg: 0.37539616659, pv: 0 },
+	
+	oksidUgleroda: { ppm: 1.16197062436, mg: 0.85846576418, pv: 9.17431192661 }, 
+	
+	oktan: { ppm: 4.73867052712, mg: 0.21050461185, pv: 125 },
+	
+	pentan: { ppm: 2.993080348, mg: 0.33327271039, pv: 71.42857142857 },
+	
+	propan: { ppm: 1.82945035824, mg: 0.54525229149, pv: 58.82352941176 },
+	
+	serovodorod: { ppm: 1.41386229273, mg: 0.70552274088, pv: 25 },
+	
+	sinKislota: { ppm: 1.12112119652, mg: 0.88974501873, pv: 18.51851851852 },
+	
+	stirol: { ppm: 4.32057267144, mg: 0.23087495012, pv: 90.90909090909 },
+	
+	toluol: { ppm: 3.8223482088, mg: 0.26096837481, pv: 90.90909090909 },
+	
+	fenol: { ppm: 3.90407195496, mg: 0.25550553666, pv: 76.92307692308 },
+	
+	formaldegid: { ppm: 1.24576857728, mg: 0.80072014834, pv: 14.28571428571 },
+	
+	ftor: { ppm: 0.78813219243, mg: 1.26566584843, pv: 0 },
+	
+	ftorovodorod: { ppm: 0.8300975435, mg: 1.20168046251, pv: 0 },
+	
+	hlor: { ppm: 1.47044665302, mg: 0.67837347105, pv: 0 },
+	
+	hlorovodorod: { ppm: 1.5125364565, mg: 0.65949616997, pv: 0 },
+	
+	etan: { ppm: 1.24742794268, mg: 0.79965500681, pv: 40 },
+	
+	etanol: { ppm: 1.91113262027, mg: 0.52194807907, pv: 32.25806451613 },
+	
+	etilen:  { ppm: 1.16362998976, mg: 0.85724157058, pv: 43.47826086957 }
 }
