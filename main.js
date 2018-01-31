@@ -1,30 +1,50 @@
-$(function () {    
+$(function () {  
+
+		var enteredAmount = $('#entered-amount');  
 
 		if ( $('#ppm').prop('checked') ) {
 			console.log('ppm!!!');
 		}
 
-		$('#measuring-wrap').change(function() {
+		$('#calc-btn-convert').click(function() {
 
-			console.log( $('#azot').prop('selected') );
-			
-			if ( $('#ppm').prop('checked') ) {
-				console.log('ppm');
+			if ( $('#azot').prop('selected') ) {
+						$('#percent-vol-amount').text( enteredAmount.val() / 10000 );
+						$('#nkpr-amount').text('0');
+
+						if ( $('#ppm-radio').prop('checked') ) {
+									 $('#ppm-amount').text( enteredAmount.val() );
+									 $('#mg-m3-amount').text( enteredAmount.val() * chemEl.azot.ppm );	
+									 $('#percent-vol-amount').text( enteredAmount.val() / 10000 );						 
+						}
+						
+						if ( $('#mg-m3-radio').prop('checked') ) {
+									 $('#ppm-amount').text( enteredAmount.val() * chemEl.azot.mg );
+									 $('#mg-m3-amount').text( enteredAmount.val() );									 
+									 $('#percent-vol-amount').text( $('#ppm-amount').text() / 10000 );
+						}
+						
+						if ( $('#percent-vol-radio').prop('checked') ) {
+
+						}
+						// if ( $('#nkpr-radio').prop('checked') ){
+						// 			$('#ppm-amount').text('0');
+						// 			$('#mg-m3-amount').text('0');
+						// }
+
 			}
 
-			if ( $('#mg-m3').prop('checked') ) {
-				console.log('mg-m3');
-			}
-
-			if ( $('#percent-vol').prop('checked') ) {
-				console.log('percent-vol');
-			}
-
-			if ( $('#nkpr').prop('checked') ) {
-				console.log('ppm');
-			}
+			// if ( $('#ammiak').prop('selected') ) {
+			// 		$('#ppm-amount').text('5');
+			// 		$('#mg-m3-amount').text('6');
+			// 		$('#percent-vol-amount').text('7');
+			// 		$('#nkpr-amount').text('8');
+			// }
 
 		})
+
+
+
 
 
 

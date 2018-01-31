@@ -1,0 +1,67 @@
+0 id="azot">Азот (N2)
+
+6.66666666667 id="ammiak">Аммиак (NH3)
+
+43.47826086957 id="acetilen">Ацетилен (C2H2)
+
+40 id="aceton">Ацетон (C3H6O)
+
+83.33333333333 id="benzol">Бензол (C6H6)
+
+71.42857142857 id="butan">Бутан (C4H10)
+
+25 id="vodorod">Водород (H2)
+
+100 id="geksan">Гексан (C6H14)
+
+0 id="dioksid-azota">Диоксид азота (NO2)
+
+0 id="dioksid-ugleroda">Диоксид углерода (CO2)
+
+76.92307692308 id="izobutan">Изобутан ((CH3)3CH)
+
+0 id="kislorod">Кислород (O2)
+
+100 id="ksilol">Ксилол (C8H10)			        
+
+22.72727272727 id="metan">Метан (CH4)
+
+18.18181818182 id="metanol">Метанол (CH3OH)
+
+0 id="ozon">Озон (O3)
+
+0 id="oksid-sery">Оксид серы (SO2)
+
+9.17431192661 id="oksid-ugleroda">Оксид углерода (CO)
+
+125 id="oktan">Октан (C8H18)
+
+71.42857142857 id="pentan">Пентан (C5H12)
+
+58.82352941176 id="propan">Пропан (C3H8)
+
+25 id="serovodorod">Сероводород (H2S)
+
+18.51851851852 id="sin-kislota">Синильная кислота (HCN)
+
+90.90909090909 id="stirol">Стирол (C8H8)
+
+90.90909090909 id="toluol">Толуол (C6H5CH3)
+
+76.92307692308 id="fenol">Фенол (C6H5OH)
+
+14.28571428571 id="formaldegid">Формальдегид (CH2O)
+
+0 id="ftor">Фтор (F2)
+
+0 id="ftorovodorod">Фтороводород (HF)
+
+0 id="hlor">Хлор (Cl2)
+
+0 id="hlorovodorod">Хлороводород (HCl)
+
+40 id="etan">Этан (C2H6)
+
+32.25806451613 id="etanol">Этанол (C2H5OH)
+
+43.47826086957 id="etilen">Этилен (C2H4)   

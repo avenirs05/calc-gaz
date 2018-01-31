@@ -22,8 +22,8 @@
   <body> 
 
 		<div id="converter-wrapper" class="t-container">
-			<h1 class="text-center">Конвертер единиц концентрации газов</h1>
-			<form class="form-conv" method="post" action="gas.php">
+			<h2>Конвертер единиц концентрации газов</h2>
+			<form>
 			    
 		    <label class="col-sm-3 col-form-label">Наименование вещества 
 		    	<span class="star-color">*</span> :
@@ -121,15 +121,15 @@
 		          </tr>
 		          <tr>
 		            <td>мг/м<sup>3</sup></td>
-		            <td id="ppm-amount">—</td>
+		            <td id="mg-m3-amount">—</td>
 		          </tr>
 		          <tr>
 		            <td>% об. д.</td>
-		            <td id="ppm-amount">—</td>
+		            <td id="percent-vol-amount">—</td>
 		          </tr>
 		          <tr>
 		            <td>% НКПР</td>
-		            <td id="ppm-amount">—</td>
+		            <td id="nkpr-amount">—</td>
 		          </tr>
 		        </tbody>
 		      </table>
@@ -143,6 +143,7 @@
 	<script src="//static.tildacdn.com/js/bootstrap.min.js"></script>
 	<script src="//static.tildacdn.com/js/jquery-1.10.2.min.js"></script>
 	<script src="main.js"></script>
+	<script src="data.js"></script>
 	<script src="script.js"></script>
 	</body>
 	
