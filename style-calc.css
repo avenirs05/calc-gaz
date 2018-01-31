@@ -72,11 +72,11 @@
 }
 
 #calc-btn-convert:hover {
-	background-color: #FFFF33;
+	background-color: #199C68;
 }
 
 #calc-btn-convert:active {
-	background-color: #199C68;
+	background-color: #000;
 	color: #fff;
 }
 
@@ -143,6 +143,9 @@
 		#converter-wrapper input[type=text],
 		#converter-wrapper select {
 			width: 98%;
+		}
+		#calc-btns-section {
+			text-align: center;
 		}
 }
 
