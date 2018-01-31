@@ -68,11 +68,11 @@
 	cursor: pointer;
 	padding: 10px 20px;
 	outline: none;
-	min-width: 170px;
 }
 
 #calc-btn-convert:hover {
 	background-color: #199C68;
+	color: #fff;
 }
 
 #calc-btn-convert:active {

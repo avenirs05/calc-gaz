@@ -2,7 +2,14 @@ $(function () {
 
 		var enteredAmount = $('#entered-amount');  
 
-		$('#calc-btn-convert').click(function(e) {
+		$('#calc-btn-reset').click(function() {
+			  $('#nkpr-amount').text( '—' );
+			  $('#percent-vol-amount').text( '—' );
+			  $('#ppm-amount').text( '—' );
+			  $('#mg-m3-amount').text( '—' );	
+		});
+
+		$('#calc-btn-convert').click(function() {
 				calcFinalAmounts(chemEl, 'azot', false);
 				calcFinalAmounts(chemEl, 'ammiak', true);
 				calcFinalAmounts(chemEl, 'acetilen', true);
@@ -83,10 +90,10 @@ $(function () {
 
 									if ( $('#nkpr-radio').prop('checked') ) {
 												if (nkprStatus === false) {
-																$('#nkpr-amount').text( '-' );
-																$('#percent-vol-amount').text( '-' );
-																$('#ppm-amount').text( '-' );
-																$('#mg-m3-amount').text( '-' );	
+																$('#nkpr-amount').text( '—' );
+																$('#percent-vol-amount').text( '—' );
+																$('#ppm-amount').text( '—' );
+																$('#mg-m3-amount').text( '—' );	
 												} else {
 																$('#nkpr-amount').text( enteredAmount.val() );
 																

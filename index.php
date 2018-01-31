@@ -109,7 +109,8 @@
 
 			    <div id="calc-btns-section" class="calc-section">
 			      <button id="calc-btn-reset" type="reset">Сброс</button>			    
-			      <button id="calc-btn-convert" type="button">Конвертировать</button>			      
+			      <button id="calc-btn-convert" type="button">Конвертировать</button>
+			      
 			    </div>
 				<!-- </div> -->
 		    <div id="calc-table-section" class="calc-section">
@@ -117,7 +118,7 @@
 		        <tbody>
 		        	<tr id="header-tr">
 		        	  <td>Единица измерения</td>
-		        	  <td>Значение</td>
+		        	  <td id="meaning-in-table">Значение</td>
 		        	</tr>
 		          <tr>
 		            <td>ppm</td>
