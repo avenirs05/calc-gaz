@@ -139,7 +139,6 @@
 	<script src="//static.tildacdn.com/js/jquery-1.10.2.min.js"></script>
 	<script src="//static.tildacdn.com/js/bootstrap.min.js"></script>
 	<script src="data.js"></script>
-	<script src="script.js"></script>
 	<script src="main.js"></script>	
 	
 	</body>	
