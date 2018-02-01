@@ -15,6 +15,7 @@
 	color: #000;
 	font-size: 36px;
 	line-height: 1.23;
+	margin-top: 10px;
 }
 
 .calc-headers {
@@ -104,12 +105,13 @@
 }
 
 #converter-wrapper form {
-	width: 50%;
+	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #f3f3f3;
 	padding: 15px;
 	border-radius: 5px;
+	margin-bottom: 10px;
 } 
 
 #converter-wrapper form table td {
